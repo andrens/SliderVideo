@@ -10,6 +10,11 @@
             animation: 'fade',
             controlsContainer: '.flexslider'
         });
+
+    	if ($('.full-video').visible( true )) {
+	        $("#video")[0].src += "?&autoplay=1";
+	    } 	
+    	
     });
 	</script>
 </head>
@@ -28,6 +33,11 @@
 	            <li>
 	                <img src="img/slide3.jpg" />
 	                <p>Designing The Well-Tempered Web</p>
+	            </li>
+	            <li>
+	            	<div class="full-video">
+				         <iframe id="video" src="http://www.youtube.com/embed/vIu85WQTPRc" frameborder="0" allowfullscreen></iframe>    
+				    </div>
 	            </li>
 	        </ul>
 	    </div>

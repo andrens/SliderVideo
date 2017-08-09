@@ -253,3 +253,11 @@ html[xmlns] .slides { display: block; }
     -moz-border-radius: 2px;
     border-radius: 2px;
 }
+
+/* video */
+.full-video { }
+
+.full-video iframe {
+	width: 940px;
+	height: 530px;
+}
